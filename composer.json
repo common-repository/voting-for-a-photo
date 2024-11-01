@@ -1,0 +1,18 @@
+{
+  "name": "voting-for-photo",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Processby"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "VotingPhoto\\": "src"
+    }
+  },
+  "require": {
+    "premmerce/wordpress-sdk": "^2.0"
+  }
+
+}
